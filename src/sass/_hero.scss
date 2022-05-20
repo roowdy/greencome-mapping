@@ -1,4 +1,32 @@
 .section-hero {
     background-image: url(../images/GTA-background.jpg);
-    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -80px;
+    padding-top: 200px;
+    padding-bottom: 80px;
+}
+
+.hero-title {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 75px;
+    /* or 75px */
+    
+    letter-spacing: 0.03em;
+    
+    color: #111518;
+}
+
+.hero-description {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 33px;
+    /* or 33px */
+    
+    letter-spacing: 0.08em;
+    
+    color: #111518;
 }
